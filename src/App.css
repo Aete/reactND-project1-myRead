@@ -1,0 +1,50 @@
+.App {
+  position: relative;
+}
+
+.App-header {
+  background-color: #24b1ed;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+header h1 {
+  text-align: center;
+  padding: 15px 0;
+  font-weight: 400;
+  font-size: 20px;
+  width: 300px;
+  margin: 0;
+}
+
+header img {
+  max-height: 20px;
+}
+
+.App-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 4;
+  right: 50px;
+  bottom: 50px;
+  width: 200px;
+  height: 60px;
+  border-radius: 30px;
+  outline: none;
+  border: 1px solid #24b1ed;
+  background-color: #ffffff;
+  color: #24b1ed;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.App-search:hover {
+  background-color: #24b1ed;
+  color: #ffffff;
+}
